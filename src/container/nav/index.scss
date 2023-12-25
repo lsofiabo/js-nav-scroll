@@ -1,0 +1,41 @@
+@use '../../style' as s;
+
+main {
+	padding: s.space(4);
+	display: flex;
+	justify-content: center;
+}
+
+.nav {
+	display: flex;
+	gap: 40px;
+	padding: 16px 40px;
+	align-items: center;
+
+	border-radius: 100px;
+	background: #35363A;
+
+	&__button {
+		width: 40px;
+		height: 40px;
+
+		transition: 0.7s;
+		&:hover {
+			opacity: 0.7;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+
+	&__input {
+		border-radius: 208.136px;
+		background: #202124;
+		padding: 16px 40px;
+
+		color: #FFF;
+		font-size: 32px;
+		font-weight: 500;
+	}
+}
